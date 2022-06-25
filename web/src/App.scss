@@ -64,3 +64,24 @@ $white: #fff;
 .color--yellow {
   color: $yellow;
 }
+
+.children {
+  margin-top: 30px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button{
+    cursor: pointer;
+    padding: 8px 10px;
+  }
+}
+
+.private{
+  button{
+    margin-top: 10px;
+  }
+}

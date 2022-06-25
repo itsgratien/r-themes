@@ -11,3 +11,8 @@ export interface ThemeContextT {
 export interface UseThemeT {
   name: ThemeEnum;
 }
+
+export interface AuthContextT {
+  isAuth: boolean;
+  setIsAuth: () => void;
+}

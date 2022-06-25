@@ -1,0 +1,66 @@
+$black: #000000;
+$yellow: #e4ff3e;
+$white: #fff;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  .welcome {
+    width: 324px;
+    margin-top: 40px;
+    span {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .select {
+    margin-top: 50px;
+    width: 270px;
+    select {
+      width: 100%;
+      outline: none;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      padding-left: 38px;
+      padding-right: 20px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    &--default {
+      background: rgba(239, 239, 239, 0.29);
+      color: $black;
+    }
+    &--yellow {
+      background: $black;
+      color: $yellow;
+    }
+    &--dark {
+      background: $yellow;
+      color: $black;
+    }
+  }
+}
+
+.App--dark {
+  background: $black;
+}
+
+.App--yellow {
+  background: $yellow;
+}
+
+.App--default {
+  background: $white;
+}
+
+.color--dark {
+  color: $black;
+}
+
+.color--yellow {
+  color: $yellow;
+}

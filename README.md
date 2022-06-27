@@ -3,6 +3,10 @@ Manage Themes Using React Context Api & Protect Routes Using High Order Componen
 
 ![image](/web/public/theme.png)
 
+## Directories
+- ``web`` contains Next Js Application
+- ``mobile`` contains React Native Application (using JSON Placeholder API)
+
 ## How to test this application ? 
 
 - clone this ``repo``

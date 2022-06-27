@@ -40,7 +40,6 @@ const App = () => {
           component={Detail}
           options={{
             headerShown: true,
-            headerStyle: { backgroundColor: 'white' },
             title: '',
           }}
         />
